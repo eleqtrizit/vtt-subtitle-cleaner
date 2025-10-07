@@ -12,6 +12,9 @@ dependencies = [
     "rich>=14.1.0",
 ]
 
+[project.scripts]
+subtitle-cleanup = "subtitle_cleanup.__main__:main"
+
 [dependency-groups]
 dev = [
     "pytest>=8.4.2",
